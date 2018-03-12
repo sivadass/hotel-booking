@@ -1,0 +1,33 @@
+{
+  "name": "rooms",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "availability": {
+      "type": "boolean",
+      "default": true
+    },
+    "beds": {
+      "type": "number",
+      "default": 1
+    },
+    "image": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

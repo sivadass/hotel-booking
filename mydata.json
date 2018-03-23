@@ -1,0 +1,22 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "rooms": 4
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "rooms": {
+      "1": "{\"number\":\"1\",\"availability\":true,\"beds\":2,\"image\":\"\",\"price\":4999,\"id\":1}",
+      "2": "{\"number\":\"2\",\"availability\":true,\"beds\":1,\"image\":\"\",\"price\":900,\"id\":2}",
+      "3": "{\"number\":\"4\",\"availability\":true,\"beds\":3,\"image\":\"\",\"price\":6500,\"id\":3}"
+    }
+  }
+}

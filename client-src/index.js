@@ -5,7 +5,7 @@ import "./css/style.css";
 
 class App extends React.Component {
   render() {
-    <Rooms />;
+    return <Rooms />;
   }
 }
 

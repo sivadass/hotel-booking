@@ -23,14 +23,14 @@ class Rooms extends React.Component {
     let renderRooms = this.state.rooms.map(item => {
       return (
         <div className="room-item" key="item.id">
-          {item.beds} beds at {item.price}
+          {item.beds} beds at Rs. {item.price}
         </div>
       );
     });
     return (
       <div className="container">
         <p>Available Rooms</p>
-        {this.state.rooms.length > 0 ? renderRooms : "Loading..."}
+        {this.state.rooms.length > 0 ? renderRooms : "Loading available rooms!"}
       </div>
     );
   }

@@ -3,6 +3,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
   mode: "development",
   watch: true,
+  sourcemap: true,
   entry: "./client-src/index.js",
   output: {
     path: __dirname + "/client",

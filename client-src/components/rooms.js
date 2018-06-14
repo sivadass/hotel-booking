@@ -23,7 +23,9 @@ class Rooms extends React.Component {
     let renderRooms = this.state.rooms.map(item => {
       return (
         <div className="room-item" key="item.id">
-          {item.beds} beds at Rs. {item.price}
+          <p className="room-details">
+            {item.beds} beds at Rs. {item.price}
+          </p>
         </div>
       );
     });

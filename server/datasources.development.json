@@ -5,7 +5,7 @@
     "url": "mongodb://localhost:27017/hotelBooking",
     "database": "hotelBooking",
     "password": "33110055",
-    "name": "hotelBooking",
+    "name": "mongodb",
     "user": "",
     "connector": "mongodb"
   }

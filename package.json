@@ -7,10 +7,11 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "node .",
+    "start": "NODE_ENV='development' node .",
     "posttest": "npm run lint && nsp check",
     "webpack": "npx webpack --config webpack.config.js",
-    "build": "npx webpack -p --config webpack.config.js"
+    "build": "npx webpack -p --config webpack.config.js",
+    "production": "NODE_ENV='production' node ."
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -32,6 +33,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
+    "dotenv": "^6.0.0",
     "eslint": "^3.17.1",
     "eslint-config-loopback": "^8.0.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",

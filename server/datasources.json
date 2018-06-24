@@ -1,7 +1,13 @@
 {
   "db": {
-    "name": "db",
-    "connector": "memory",
-    "file": "mydata.json"
+    "host": "s217351.mlab.com",
+    "port": 17351,
+    "url":
+      "mongodb://heroku_3xl8wbdr:7ksush1rbrirrkh83jeumucno7@ds217351.mlab.com:17351/heroku_3xl8wbdr",
+    "database": "heroku_3xl8wbdr",
+    "password": "7ksush1rbrirrkh83jeumucno7",
+    "name": "heroku_3xl8wbdr",
+    "user": "heroku_3xl8wbdr",
+    "connector": "mongodb"
   }
 }
